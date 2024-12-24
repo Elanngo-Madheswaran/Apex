@@ -28,10 +28,10 @@
 
 </script>
 
-<nav class="bg-neutral-300 border-gray-200">
+<nav class="bg-neutral-100 border-gray-200">
     <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4 pe-0">
         <a href="/" class="flex items-center space-x-3 rtl:space-x-reverse">
-            <img src="/arsw_logo.png" class="sm:h-20 sm:w-60 h-16 w-48 " alt="Apex research and Scientific writing academy logo" />
+            <img src="/arswa_logo.png" class="h-16 w-48 " alt="Apex research and Scientific writing academy logo" />
         </a>
         <button data-collapse-toggle="navbar-default" type="button" class="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-gray-500 rounded-lg lg:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600" aria-controls="navbar-default" aria-expanded="false">
             <span class="sr-only">Open main menu</span>
@@ -40,7 +40,7 @@
             </svg>
         </button>
         <div class="hidden w-full lg:block lg:w-auto p-5" id="navbar-default">
-            <ul class="font-medium flex flex-col p-4 md:p-0 mt-4 border border-gray-100 rounded-lg bg-neutral-300 lg:flex-row lg:space-x-8 rtl:space-x-reverse lg:mt-0 lg:border-0 dark:bg-gray-800 lg:dark:bg-gray-900 dark:border-gray-700">
+            <ul class="font-medium flex flex-col p-4 md:p-0 mt-4 border border-gray-100 rounded-lg bg-neutral-100 lg:flex-row lg:space-x-8 rtl:space-x-reverse lg:mt-0 lg:border-0 dark:bg-gray-800 lg:dark:bg-gray-900 dark:border-gray-700">
                 <li class="self-center">
                     <a href="/" class="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 lg:hover:bg-transparent lg:border-0 lg:p-0 lg:hover:text-orange-500" aria-current="page">Home</a>
                 </li>
