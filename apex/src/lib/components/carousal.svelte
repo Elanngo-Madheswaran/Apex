@@ -42,4 +42,16 @@
       {/each}
     </div>
   
+    <!-- Indicators -->
+    <div class="flex justify-center space-x-2 mt-4">
+      {#each images as _, i}
+        <button
+          class="w-3 h-3 rounded-full"
+          class:bg-blue-500={i === currentIndex}
+          class:bg-gray-300={i !== currentIndex}
+          onclick={() => (currentIndex = i)}
+          aria-label={`Slide ${i + 1}`}
+        ></button>
+      {/each}
+    </div>
   </div>
