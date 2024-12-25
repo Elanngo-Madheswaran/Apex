@@ -1,10 +1,12 @@
 <script>
+
+
     import Carousal from "$lib/components/carousal.svelte";
     const images = [
-        "/home/courses/im1.png",
-        "/home/courses/im2.png",
-        "/home/courses/im3.png",
-        "/home/courses/im4.jpeg"
+        "/home/carousal/im1.png",
+        "/home/carousal/im2.png",
+        "/home/carousal/im3.png",
+        "/home/carousal/im4.png"
   ];
     const courses = [
         {
@@ -34,11 +36,11 @@
 
 <div class="w-full flex flex-col justify-center items-center">
     <hero class="flex max-w-screen-xl sm:flex-row flex-col items-center">
-        <div class="sm:w-1/2 p-5">
+        <div class="sm:w-2/5 p-5">
             <img src="/home/main_img.png" class="object-cover w-full" alt="Person writing in paper with feather" />
         </div>
-        <div class="sm:p-5 p-2 pb-5 flex flex-col sm:w-1/2 justify-center">
-            <p class="self-center sm:text-start text-center lg:text-6xl text-3xl font-bold">Empowering Researcher Through Knownledge</p>
+        <div class="sm:p-5 p-2 pb-5 flex flex-col sm:w-3/5 justify-center">
+            <p class="self-center sm:text-start text-center lg:text-6xl text-3xl font-bold italic">Empowering Researcher Through Knownledge</p>
         </div>
     </hero>
     <section class="w-full bg-zinc-800 flex justify-center">

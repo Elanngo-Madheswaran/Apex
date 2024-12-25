@@ -42,25 +42,25 @@
         <div class="hidden w-full lg:block lg:w-auto p-5" id="navbar-default">
             <ul class="font-medium flex flex-col p-4 md:p-0 mt-4 border border-gray-100 rounded-lg bg-neutral-100 lg:flex-row lg:space-x-8 rtl:space-x-reverse lg:mt-0 lg:border-0 dark:bg-gray-800 lg:dark:bg-gray-900 dark:border-gray-700">
                 <li class="self-center">
-                    <a href="/#" class="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 lg:hover:bg-transparent lg:border-0 lg:p-0 lg:hover:text-orange-500" aria-current="page">Home</a>
+                    <a href="/#" onclick={toggleMenu} class="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 lg:hover:bg-transparent lg:border-0 lg:p-0 lg:hover:text-orange-500" aria-current="page">Home</a>
                 </li>
                 <li class="self-center">
-                    <a href="/#about" class="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 lg:hover:bg-transparent lg:border-0 lg:p-0 lg:hover:text-orange-500">About</a>
+                    <a href="/#about" onclick={toggleMenu} class="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 lg:hover:bg-transparent lg:border-0 lg:p-0 lg:hover:text-orange-500">About</a>
                 </li>
                 <li class="self-center">
-                    <a href="/#services" class="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 lg:hover:bg-transparent lg:border-0 lg:p-0 lg:hover:text-orange-500">Services</a>
+                    <a href="/#services" onclick={toggleMenu} class="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 lg:hover:bg-transparent lg:border-0 lg:p-0 lg:hover:text-orange-500">Services</a>
                 </li>
                 <li class="self-center">
-                    <a href="/" class="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 lg:hover:bg-transparent lg:border-0 lg:p-0 lg:hover:text-orange-500">Published Editors</a>
+                    <a href="/" onclick={toggleMenu} class="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 lg:hover:bg-transparent lg:border-0 lg:p-0 lg:hover:text-orange-500">Published Editors</a>
                 </li>
                 <li class="self-center">
-                    <a href="/" class="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 lg:hover:bg-transparent lg:border-0 lg:p-0 lg:hover:text-orange-500">Pricing</a>
+                    <a href="/" onclick={toggleMenu} class="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 lg:hover:bg-transparent lg:border-0 lg:p-0 lg:hover:text-orange-500">Pricing</a>
                 </li>
                 <li class="self-center">
-                    <a href="/" class="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 lg:hover:bg-transparent lg:border-0 lg:p-0 lg:hover:text-orange-500">Contact</a>
+                    <a href="/" onclick={toggleMenu} class="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 lg:hover:bg-transparent lg:border-0 lg:p-0 lg:hover:text-orange-500">Contact</a>
                 </li>
                 <li class="self-center">
-                    <a href="/" class="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 lg:rounded-full lg:p-3 lg:bg-neutral-100 lg:text-orange-500 lg:border-orange-500 lg:border lg:hover:bg-orange-500 lg:hover:text-neutral-100">Get Started</a>
+                    <a href="/" onclick={toggleMenu} class="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 lg:rounded-full lg:p-3 lg:bg-neutral-100 lg:text-orange-500 lg:border-orange-500 lg:border lg:hover:bg-orange-500 lg:hover:text-neutral-100">Get Started</a>
                 </li>
             </ul>
         </div>
