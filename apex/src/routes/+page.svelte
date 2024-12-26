@@ -7,7 +7,8 @@
         "/home/carousal/im2.png",
         "/home/carousal/im3.png",
         "/home/carousal/im4.png"
-  ];
+    ];
+
     const courses = [
         {
             imgSrc: "/home/courses/im1.png", //Use 3:2 ratio images for better view
@@ -15,22 +16,22 @@
             duration: "12 weeks",
             eligibility: "Rising sophomores and above"
         },
-    {
-        imgSrc: "/home/courses/im2.png",
-        title: "Academic: Diploma in Research and Scientific Writing",
-        duration: "6 months to 1 year",
-        eligibility: "Completion of the certificate course"
-    },
-    {
-        imgSrc: "/home/courses/im3.png",
-        title: "Professional: Certificate in Scientific Writing",
-        description: "Email us @ arswacademy@gmail.com"
-    },
-    {
-        imgSrc: "/home/courses/im4.jpeg",
-        title: "Professional: Certificate in Scientific Editing",
-        description: "Email us @ arswacademy@gmail.com"
-    }
+        {
+            imgSrc: "/home/courses/im2.png",
+            title: "Academic: Diploma in Research and Scientific Writing",
+            duration: "6 months to 1 year",
+            eligibility: "Completion of the certificate course"
+        },
+        {
+            imgSrc: "/home/courses/im3.png",
+            title: "Professional: Certificate in Scientific Writing",
+            description: "Email us @ arswacademy@gmail.com"
+        },
+        {
+            imgSrc: "/home/courses/im4.jpeg",
+            title: "Professional: Certificate in Scientific Editing",
+            description: "Email us @ arswacademy@gmail.com"
+        }
     ];
 </script>
 
@@ -181,7 +182,7 @@
             <div>
                 <p class="sm:m-5 m-2 sm:text-2xl text-md">Email:arswacademy@gmail.com</p>
                 <p class="sm:m-5 m-2 sm:text-2xl text-md">Tel: (+1) 919-943-2704</p>
-                <p class="sm:m-5 m-2 sm:text-2xl text-md">500 Terry Francine Street , NC 94158</p>
+                <p class="sm:m-5 m-2 sm:text-2xl text-md">Cary NC</p>
             </div>
         </div>
 
