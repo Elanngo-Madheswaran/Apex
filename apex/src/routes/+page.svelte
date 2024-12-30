@@ -3,10 +3,18 @@
 
     import Carousal from "$lib/components/carousal.svelte";
     const images = [
-        "/home/carousal/im1.png",
-        "/home/carousal/im2.png",
-        "/home/carousal/im3.png",
-        "/home/carousal/im4.png"
+        {
+            img:"/home/carousal/im1.png", alt:"The best research you can do is talk to people - Terry Pratchett"
+        },
+        {
+            img:"/home/carousal/im2.png", alt:"Science is not finished until it is communicated - Sir Mark Walport"
+        },
+        {
+            img:"/home/carousal/im3.png", alt:"If I come to an impasse, it usually means I don't thoroughly understand what I am writing about"
+        },
+        {
+            img:"/home/carousal/im4.png", alt:"No research without action, no action without research - Kurt Lewin"
+        } 
     ];
 
     const courses = [
@@ -136,6 +144,7 @@
 
     <section class="w-full flex flex-col items-center bg-zinc-800 p-5 text-white">
         <div class="xl:w-3/4">
+            <p class="sr-only">Contact form</p>
             <h3 class="sm:text-5xl text-2xl font-bold my-5 text-start w-full">Contact Apex Professional Experts</h3>
         </div>
         <div class="xl:w-3/4 w-full flex flex-row flex-wrap justify-center items-center">

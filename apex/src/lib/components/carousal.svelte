@@ -32,8 +32,8 @@
     <div class="flex overflow-hidden">
       {#each images as image, i}
         <img
-          src={image}
-          alt={`Slide ${i + 1}`}
+          src={image.img}
+          alt={image.alt}
           class="w-full transition-all duration-700 ease-in-out"
           class:opacity-100={i === currentIndex}
           class:opacity-0={i !== currentIndex}
