@@ -142,7 +142,7 @@
         </div>
     </section>
 
-    <section class="w-full flex flex-col items-center bg-zinc-800 p-5 text-white">
+    <section class="w-full flex flex-col items-center bg-zinc-800 p-5 text-white" id="contact">
         <div class="xl:w-3/4">
             <p class="sr-only">Contact form</p>
             <h3 class="sm:text-5xl text-2xl font-bold my-5 text-start w-full">Contact Apex Professional Experts</h3>
