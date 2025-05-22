@@ -1,7 +1,5 @@
 <script>
-
-
-    import Carousal from "$lib/components/carousal.svelte";
+    import { Carousal , Orange_btn } from '$components';
     const images = [
         {
             img:"/home/carousal/im1.png", alt:"The best research you can do is talk to people - Terry Pratchett"
@@ -93,7 +91,7 @@
                         </div>
                         {#if course.duration}
                             <div class="flex flex-col justify-end md:h-2/6">
-                                <button class="bg-orange-600 hover:border-orange-700 hover:border text-neutral-100 p-3 w-40 mt-5 self-start hover:bg-white hover:text-orange-500 transition-all duration-500 ease-out hover:shadow-[4px_4px_2px_0px_rgba(221,107,32,0.4),8px_8px_2px_0px_rgba(237,137,54,0.3),12px_12px_2px_0px_rgba(246,173,85,0.2),16px_16px_2px_0px_rgba(251,211,141,0.1)]">Explore Programs</button>
+                                <Orange_btn hrefto="#" text="Explore programs"/>
                             </div>
                         {/if}
                     </div>
@@ -111,7 +109,7 @@
                     <div class="mt-6 flex flex-col items-center">
                         <h4 class="text-2xl font-medium text-center">Gain insights from Professionals</h4>
                         <p class="text-md">Our team consists of experienced professors and scientists, each with a PhD and postdoctoral expertise, offering personalized guidance to help students excel in research. With their wealth of knowledge and practical experience, they mentor students through every step of the research process, fostering academic growth and achievement.</p>
-                        <button class="bg-orange-600 hover:border-orange-700 hover:border text-neutral-100 p-3 w-40 mt-5 hover:bg-white hover:text-orange-500 transition-all duration-500 ease-out hover:shadow-[4px_4px_2px_0px_rgba(221,107,32,0.4),8px_8px_2px_0px_rgba(237,137,54,0.3),12px_12px_2px_0px_rgba(246,173,85,0.2),16px_16px_2px_0px_rgba(251,211,141,0.1)]">More Info</button>
+                        <Orange_btn hrefto="#" text="More Info"/>
                     </div>
                 </div>
                 <div class="w-96 flex flex-col relative bg-white p-5 xl:mt-10 sm:m-5 mt-5">
@@ -119,7 +117,7 @@
                     <div class="mt-6 flex flex-col items-center">
                         <h4 class="text-2xl font-medium text-center">Refined Academic Research Manuscript</h4>
                         <p class="text-md">Upon concluding the Academic Research Program, students depart with a refined research manuscript, primed for submission to science fairs, academic conferences, essay contests, or publication in journals. This culmination of their efforts not only demonstrates their scholarly prowess but also serves as a testament to their dedication to academic excellence.</p>
-                        <button class="bg-orange-600 hover:border-orange-700 hover:border text-neutral-100 p-3 w-40 mt-5 hover:bg-white hover:text-orange-500 transition-all duration-500 ease-out hover:shadow-[4px_4px_2px_0px_rgba(221,107,32,0.4),8px_8px_2px_0px_rgba(237,137,54,0.3),12px_12px_2px_0px_rgba(246,173,85,0.2),16px_16px_2px_0px_rgba(251,211,141,0.1)]">More Info</button>
+                        <Orange_btn hrefto="#" text="More Info"/>
                     </div>
                 </div>
                 <div class="w-96 flex flex-col relative bg-white p-5 h-fit sm:m-5 mt-5">
@@ -127,7 +125,7 @@
                     <div class="mt-6 flex flex-col items-center">
                         <h4 class="text-2xl font-medium text-center">Enhanced Academic Writing Skills</h4>
                         <p class="text-md">Early exposure to university life facilitates adaptation to its academic demands, with professors expecting students to meet elevated standards in their writing. Thus, engaging in college-level writing at an early stage equips students with the readiness needed to navigate the rigors of college life effectively. This proficiency not only enhances their academic success</p>
-                        <button class="bg-orange-600 hover:border-orange-700 hover:border text-neutral-100 p-3 w-40 mt-5 hover:bg-white hover:text-orange-500 transition-all duration-500 ease-out hover:shadow-[4px_4px_2px_0px_rgba(221,107,32,0.4),8px_8px_2px_0px_rgba(237,137,54,0.3),12px_12px_2px_0px_rgba(246,173,85,0.2),16px_16px_2px_0px_rgba(251,211,141,0.1)]">More Info</button>
+                        <Orange_btn hrefto="#" text="More Info"/>
                     </div>
                 </div>
             </div>
