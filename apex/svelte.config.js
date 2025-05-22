@@ -1,16 +1,16 @@
 import adapter from '@sveltejs/adapter-static';
 
 export default {
-	kit: {
-		adapter: adapter({
-			pages: 'build',
-			assets: 'build',
-			fallback: undefined,
-			precompress: false,
-			strict: true
-		}),
-		alias:{
-			$components : 'src/lib/components',
-		}
-	}
+    kit: {
+        adapter: adapter({
+            pages: 'build',
+            assets: 'build',
+            fallback: undefined,
+            precompress: false,
+            strict: true
+        }),
+        alias:{
+            $components : 'src/lib/components',
+        }
+    }
 };

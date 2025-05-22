@@ -2,39 +2,39 @@
     import { Carousal , Orange_btn } from '$components';
     const images = [
         {
-            img:"/home/carousal/im1.png", alt:"The best research you can do is talk to people - Terry Pratchett"
+            img:"./home/carousal/im1.png", alt:"The best research you can do is talk to people - Terry Pratchett"
         },
         {
-            img:"/home/carousal/im2.png", alt:"Science is not finished until it is communicated - Sir Mark Walport"
+            img:"./home/carousal/im2.png", alt:"Science is not finished until it is communicated - Sir Mark Walport"
         },
         {
-            img:"/home/carousal/im3.png", alt:"If I come to an impasse, it usually means I don't thoroughly understand what I am writing about"
+            img:"./home/carousal/im3.png", alt:"If I come to an impasse, it usually means I don't thoroughly understand what I am writing about"
         },
         {
-            img:"/home/carousal/im4.png", alt:"No research without action, no action without research - Kurt Lewin"
+            img:"./home/carousal/im4.png", alt:"No research without action, no action without research - Kurt Lewin"
         } 
     ];
 
     const courses = [
         {
-            imgSrc: "/home/courses/im1.png", //Use 3:2 ratio images for better view
+            imgSrc: "./home/courses/im1.png", //Use 3:2 ratio images for better view
             title: "Academic: Certificate in Research and Scientific Writing",
             duration: "12 weeks",
             eligibility: "Rising sophomores and above"
         },
         {
-            imgSrc: "/home/courses/im2.png",
+            imgSrc: "./home/courses/im2.png",
             title: "Academic: Diploma in Research and Scientific Writing",
             duration: "6 months to 1 year",
             eligibility: "Completion of the certificate course"
         },
         {
-            imgSrc: "/home/courses/im3.png",
+            imgSrc: "./home/courses/im3.png",
             title: "Professional: Certificate in Scientific Writing",
             description: "Email us @ arswacademy@gmail.com"
         },
         {
-            imgSrc: "/home/courses/im4.jpeg",
+            imgSrc: "./home/courses/im4.jpeg",
             title: "Professional: Certificate in Scientific Editing",
             description: "Email us @ arswacademy@gmail.com"
         }
@@ -44,7 +44,7 @@
 <div class="w-full flex flex-col justify-center items-center">
     <hero class="flex max-w-screen-xl sm:flex-row flex-col items-center lg:h-[450px]">
         <div class="sm:w-2/5 p-5 h-full">
-            <img src="/home/main_img.png" class="object-cover h-full w-full" alt="Person writing in paper with feather" />
+            <img src="./home/main_img.png" class="object-cover h-full w-full" alt="Person writing in paper with feather" />
         </div>
         <div class="sm:p-5 p-2 pb-5 flex flex-col sm:w-3/5 justify-center h-full">
             <p class="self-center sm:text-start text-center lg:text-6xl text-3xl font-bold italic">Empowering Researcher Through Knownledge</p>
@@ -60,7 +60,7 @@
     </section>
     <section id="about" class="flex w-full md:flex-row flex-col border-y-2 border-zinc-800">
         <div class="md:w-1/2">
-            <img src="/home/women_reading.png" class="h-full w-full object-cover" alt="Person writing in paper with feather" />
+            <img src="./home/women_reading.png" class="h-full w-full object-cover" alt="Person writing in paper with feather" />
         </div>
         <div class="sm:px-5 p-2 pb-5 flex flex-col md:w-1/2">
             <p class="text-start xl:text-5xl lg:text-3xl text-xl font-bold underline">Our Story</p>
@@ -103,7 +103,7 @@
     <section class="w-full flex justify-center" id="services">
         <div class="max-w-screen-2xl w-full flex flex-col justify-center items-center">
             <h3 class="text-4xl text-center font-bold">Our Services</h3>
-            <div class="w-full h-full bg-[url('/home/services/image.png')] bg-fixed flex mt-10 sm:p-10 p-5 flex-wrap justify-center">
+            <div class="w-full h-full flex mt-10 sm:p-10 p-5 flex-wrap justify-center" style="background-image: url('./home/services/image.png'); background-attachment: fixed;">
                 <div class="w-96 flex flex-col relative bg-white p-5 h-fit sm:m-5 mt-5">
                     <span class="absolute self-center -top-5 rounded-full bg-neutral-200 text-center text-3xl h-12 w-12 flex justify-center items-center">1</span>
                     <div class="mt-6 flex flex-col items-center">
@@ -192,7 +192,5 @@
                 <p class="sm:m-5 m-2 sm:text-2xl text-md">Cary NC</p>
             </div>
         </div>
-
     </section>
-    
 </div>
