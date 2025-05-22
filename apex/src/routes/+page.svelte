@@ -44,11 +44,11 @@
 </script>
 
 <div class="w-full flex flex-col justify-center items-center">
-    <hero class="flex max-w-screen-xl sm:flex-row flex-col items-center">
-        <div class="sm:w-2/5 p-5">
-            <img src="/home/main_img.png" class="object-cover w-full" alt="Person writing in paper with feather" />
+    <hero class="flex max-w-screen-xl sm:flex-row flex-col items-center lg:h-[450px]">
+        <div class="sm:w-2/5 p-5 h-full">
+            <img src="/home/main_img.png" class="object-cover h-full w-full" alt="Person writing in paper with feather" />
         </div>
-        <div class="sm:p-5 p-2 pb-5 flex flex-col sm:w-3/5 justify-center">
+        <div class="sm:p-5 p-2 pb-5 flex flex-col sm:w-3/5 justify-center h-full">
             <p class="self-center sm:text-start text-center lg:text-6xl text-3xl font-bold italic">Empowering Researcher Through Knownledge</p>
         </div>
     </hero>
