@@ -1,5 +1,6 @@
 <script>
-    import { Carousal , Orange_btn } from '$components';
+    import { Carousal , Orange_btn , LoadPrompt } from '$components';
+  import Loadprompt from '$components/loadprompt.svelte';
     const images = [
         {
             img:"/home/carousal/im1.png", alt:"The best research you can do is talk to people - Terry Pratchett"
@@ -42,6 +43,12 @@
 </script>
 
 <div class="w-full flex flex-col justify-center items-center">
+    <Loadprompt
+        title="Join ARSWA Today!"
+        message="Empower your research journey with our specialized courses and expert guidance. Start your path to academic excellence with us."
+        buttonText="Get Started"
+        buttonLink="#courses"
+    />
     <hero class="flex max-w-screen-xl sm:flex-row flex-col items-center lg:h-[450px]">
         <div class="sm:w-2/5 p-5 h-full">
             <img src="/home/main_img.png" class="object-cover h-full w-full" alt="Person writing in paper with feather" />

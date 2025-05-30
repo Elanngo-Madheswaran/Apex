@@ -57,6 +57,9 @@
                     <a href="/" onclick={toggleMenu} class="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 lg:hover:bg-transparent lg:border-0 lg:p-0 lg:hover:text-orange-500">Pricing</a>
                 </li>
                 <li class="self-center">
+                    <a href="/testimonials" onclick={toggleMenu} class="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 lg:hover:bg-transparent lg:border-0 lg:p-0 lg:hover:text-orange-500">Testimonials</a>
+                </li>
+                <li class="self-center">
                     <a href="/#contact" onclick={toggleMenu} class="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 lg:hover:bg-transparent lg:border-0 lg:p-0 lg:hover:text-orange-500">Contact</a>
                 </li>
                 <li class="self-center">
